@@ -1,0 +1,9 @@
+/* pages/movie/movie.wxss */
+.item{
+    padding:0 30rpx
+}
+.title{
+    display:flex;
+    justify-content: space-between;
+    margin:40rpx 0;
+}

@@ -1,0 +1,11 @@
+<!--pages/readDetail/readDetail.wxml-->
+<view class="container">
+    <image class="play" bind:tap="handleMusic"
+        src="{{isPlay?'/images/music/music-stop.png':'/images/music/music-start.png'}}"></image>
+    <view class="icon">
+        <image bind:tap="handleCollect" class="collection"
+            src="{{isCollected?'/images/icon/collection.png':'/images/icon/collection-anti.png'}}"></image>
+        <image class="share" bind:tap="share" src="/images/icon/share-anti.png"></image>
+    </view>
+    <v-item data="{{item}}"></v-item>
+</view>

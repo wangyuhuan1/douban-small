@@ -1,0 +1,20 @@
+/* pages/musicDetail/musicDetail.wxss */
+.item image{
+    width:120rpx;
+    height:120rpx;
+    margin-right: 30rpx;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30rpx 0;
+}
+.item .left{
+    display:flex;
+    align-items: center;
+}
+.item .play{
+    width:80rpx;
+    height:80rpx
+}

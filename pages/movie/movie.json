@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "v-item":"/components/movieItem/movieItem"
+  },
+  "navigationBarTitleText": "光与影"
+}

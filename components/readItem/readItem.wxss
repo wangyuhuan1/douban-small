@@ -1,0 +1,43 @@
+/* components/readItem/readItem.wxss */
+.icon image{
+    width:50rpx;
+    height:50rpx
+}
+.at image{
+    width:80rpx;
+    height:80rpx
+}
+.title{
+    font-size: 40rpx;
+    margin:20rpx 0;
+}
+.info{
+    color:#666
+}
+.icon{
+    display:flex;
+    color:#666;
+    margin-top: 20rpx;
+}
+.icon>view{
+    display: flex;
+    align-items: center;
+    margin-right: 50rpx;
+}
+.icon text{
+    margin-left: 20rpx;
+}
+.at{
+    display:flex;
+    align-items: center;
+    color:#666
+}
+.at image{
+    margin:0 20rpx;
+}
+.at text{
+    margin-left: 20rpx;
+}
+.img{
+    width:100%
+}

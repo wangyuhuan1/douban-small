@@ -1,0 +1,10 @@
+/* pages/movieDetail/movieDetail.wxss */
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:30rpx 30rpx;
+}
+movie-item{
+    margin-bottom: 30rpx;
+}

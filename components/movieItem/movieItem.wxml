@@ -1,0 +1,10 @@
+<!--components/movieItem/movieItem.wxml-->
+<wxs src="../../wxs/filter.wxs" module="tools"></wxs>
+<view class="item" bind:tap="handleClick">
+    <image src="{{data.images.small}}"></image>
+    <text>{{tools.format(data.title)}}</text>
+    <view class="star">
+        <image wx:for="{{tools.formatStar(data.rating.stars)}}" wx:key src="{{item==1?'/images/icon/star.png':'/images/icon/none-star.png'}}"></image>
+        <text>{{data.rating.average}}</text>
+    </view>
+</view>

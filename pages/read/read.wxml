@@ -1,0 +1,9 @@
+<!-- pages/read/read.wxml -->
+<view class="container">
+    <swiper indicator-dots="{{indicatorDots}}">
+        <swiper-item wx:for="{{banners}}" wx:key>
+            <image src="{{item.imageUrl}}" />
+        </swiper-item>
+    </swiper>
+    <v-item data="{{item}}" wx:for="{{postList}}" wx:key></v-item>
+</view>

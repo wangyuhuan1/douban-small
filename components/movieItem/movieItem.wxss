@@ -1,0 +1,16 @@
+/* components/movieItem/movieItem.wxss */
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    width:220rpx
+}
+image{
+    width:220rpx;
+    height:260rpx;
+}
+.star image{
+    width:35rpx;
+    height:35rpx
+}

@@ -1,0 +1,11 @@
+<!--pages/music/music.wxml-->
+<view class="item" wx:for="{{musics}}" wx:for-item="list" wx:key>
+    <view class="title">
+        <text>{{list.title}}</text>
+        <text bind:tap="handleMore" data-url="{{list.url}}"
+        data-title="{{list.title}}">更多></text>
+    </view>
+    <view class="flex">
+        <music-item wx:for="{{list.data}}" wx:key data="{{item}}"></music-item>
+    </view>
+</view>

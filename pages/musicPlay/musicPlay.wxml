@@ -1,0 +1,5 @@
+<!--pages/play/play.wxml-->
+<view class="container">
+    <image class="pan" src="{{img}}"></image>
+    <image class="play" bind:tap="handleClick" src="{{isPlay?'../../images/icons/ajd.png':'../../images/icons/ajf.png'}}"></image>
+</view>

@@ -1,0 +1,14 @@
+<!--components/readDetailItem/readDetailItem.wxml-->
+<image class="header" src="{{data.imgSrc}}"></image>
+<view class="container">
+    <view class="time">
+        <image src="{{data.avatar}}"></image>
+        <view>
+            <text>{{data.author}}</text>
+            <text class="published">发表于</text>
+            <text>{{data.dateTime}}</text>
+        </view>
+    </view>
+    <view class="title">{{data.title}}</view>
+    <view class="detail">{{data.detail}}</view>
+</view>

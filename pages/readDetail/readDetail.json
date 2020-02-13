@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "v-item":"/components/readDetailItem/readDetailItem"
+  },
+  "navigationBarTitleText": "文与字"
+}

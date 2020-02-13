@@ -1,0 +1,14 @@
+/* pages/music/music.wxss */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item{
+    padding:20rpx
+}
+.title{
+    padding:20rpx 0;
+    display: flex;
+    justify-content: space-between;
+}

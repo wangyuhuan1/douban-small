@@ -1,0 +1,5 @@
+<view class="container">
+    <image src="../../images/avatar/4.png"></image>
+    <view class="name">Hello，七月</view>
+    <view class="start" bind:tap="handleToggle">开启小程序之旅</view>
+</view>

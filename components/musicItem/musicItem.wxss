@@ -1,0 +1,8 @@
+/* components/musicItem/musicItem.wxss */
+.item{
+    width:220rpx
+}
+image{
+    width:220rpx;
+    height:220rpx
+}

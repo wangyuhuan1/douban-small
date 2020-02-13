@@ -1,0 +1,19 @@
+/* pages/readDetail/readDetail.wxss */
+image{
+    width:100rpx;
+    height:100rpx
+}
+.container{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    top:570rpx;
+    right: 50rpx;
+}
+.play{
+    position: absolute;
+    top:180rpx;
+    left:50%;
+    transform: translateX(-50%);
+}

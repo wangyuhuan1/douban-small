@@ -1,0 +1,5 @@
+<!--pages/movieDetail/movieDetail.wxml-->
+<view class="item">
+    <movie-item data="{{item}}" wx:for="{{subjects}}" wx:key
+    bind:tap="handleDetail" data-id="{{item.id}}"></movie-item>
+</view>

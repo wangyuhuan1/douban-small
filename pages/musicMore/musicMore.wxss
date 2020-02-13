@@ -1,0 +1,10 @@
+/* pages/musicMore/musicMore.wxss */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:20rpx
+}
+v-item{
+    margin-bottom: 30rpx;
+}

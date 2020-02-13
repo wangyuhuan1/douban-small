@@ -1,0 +1,21 @@
+<!--components/readItem/readItem.wxml-->
+<view class="item" bind:tap="handleToggle">
+<view class="title">{{data.title}}</view>
+<image class="img" src="{{data.imgSrc}}" />
+<view class="info">{{data.content}}</view>
+<view class="icon">
+    <view>
+        <image src="../../images/icon/chat1.png" />
+        <text>{{data.collection}}</text>
+    </view>
+    <view>
+        <image src="../../images/icon/view.png" />
+        <text>{{data.reading}}</text>
+    </view>
+</view>
+<view class="at">
+    <image src="{{data.avatar}}" />
+    <text>{{data.date}}</text>
+</view>
+</view>
+
